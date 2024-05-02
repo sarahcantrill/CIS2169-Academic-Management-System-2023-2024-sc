@@ -1,0 +1,77 @@
+{
+  "degrees": [
+    {
+      "id" : 1,
+      "name": "ComputerScience",
+      "modules": [
+        {
+          "module_code": "CS101",
+          "module_name": "Introduction to Computer Science",
+          "timeslot": "Mon 10:00 - 12:00",
+          "room": "CS101 Room A",
+          "assessments": [
+            {
+              "assessment_name": "Midterm Exam",
+              "date": "2024-10-15",
+              "time": "10:00 - 12:00",
+              "room": "CS101 Room A"
+            },
+            {
+              "assessment_name": "Final Project",
+              "date": "2024-12-05",
+              "time": "14:00 - 16:00",
+              "room": "CS101 Room B"
+            }
+          ]
+        },
+        {
+          "module_code": "CS201",
+          "module_name": "Data Structures and Algorithms",
+          "timeslot": "Wed 14:00 - 16:00",
+          "room": "CS201 Room B",
+          "assessments": [
+            {
+              "assessment_name": "Assignment 1",
+              "date": "2024-11-10",
+              "time": "14:00 - 16:00",
+              "room": "CS201 Room B"
+            },
+            {
+              "assessment_name": "Final Exam",
+              "date": "2024-12-20",
+              "time": "10:00 - 12:00",
+              "room": "CS201 Room A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MediaStudies",
+      "modules": [
+        {
+          "module_code": "CS1010",
+          "module_name": "Introduction to Media",
+          "timeslot": "Mon 10:00 - 12:00",
+          "room": "CS101 Room A",
+          "assessments": [
+            {
+              "assessment_name": "Midterm Exam",
+              "date": "2024-10-15",
+              "time": "10:00 - 12:00",
+              "room": "CS101 Room A"
+            },
+            {
+              "assessment_name": "Final Project",
+              "date": "2024-12-05",
+              "time": "14:00 - 16:00",
+              "room": "CS101 Room B"
+            }
+          ]
+        }
+
+  ]
+}
+  ]
+}
