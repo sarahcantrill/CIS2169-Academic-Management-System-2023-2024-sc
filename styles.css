@@ -1,5 +1,81 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    width: 400px;
+}
 
+.submit-btn {
+    background-color: lightgray;
+  }
+
+.home-buttons {
+    text-align: center;
+    margin-top: 60px;
+}
+
+button {
+    border-radius: 10px;   
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: none;
+    background-color: lightblue;
+    font: black;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #728FCE;
+}
+  
+  /* Style the h1 within the header */
+ header h1 {
+    background-color: white;
+    font-size: 2em; /* Larger font size */
+    margin-left: 35%;
+  }
+  
+  /* Apply styles to the degree-info container */
+#degree-info, #module-info, #assessment-info  {
+    max-width: 800px; /* Limit width of content */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px;
+    border: 1px solid darkgray; /* Gray border */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+  /* Style individual degree blocks */
+  .degree, .module, .assessment {
+    background-color: white;
+  }
+  
+  /* Style degree names */
+  .degree h2 {
+    color: #333; /* Dark text color */
+  }
+  
+  /* Style year information */
+  .degree p {
+    font-style: italic; /* Italicize year information */
+  }
+
+  .assessment-form, .module-form, .degree-form, .timetable-form {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    border: 1px solid darkgray; /* Gray border */
+    border-radius: 5px;
+    padding: 50px;
+  }
+
+  .submit-btn {
+    background-color: lightgray;
+  }

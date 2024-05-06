@@ -3,75 +3,624 @@
     {
       "id" : 1,
       "name": "ComputerScience",
+      "year": 2024,
+      "exit_awards": [
+        {
+          "id" : 1,
+          "award_name": "Bachelor of Science (BSc) in Computer Science"
+        },
+        {
+          "id" : 2,
+          "award_name": "Certificate of Higher Education in Computer Science"
+        }
+      ],
+      "d_learning_outcomes": [
+        {
+        "id": 1,
+        "LO": "Improve Research skills"
+        },
+        {
+          "id": 2,
+          "LO": "Improve Public Speaking skills"
+          },
+          {
+            "id": 3,
+            "LO": "Learn to program"
+            }
+      ],
       "modules": [
         {
+          "id": 1,
           "module_code": "CS101",
           "module_name": "Introduction to Computer Science",
+          "number_hours" : 40,
+          "credits" : 40,
           "timeslot": "Mon 10:00 - 12:00",
-          "room": "CS101 Room A",
+          "room": [
+            {
+            "id" : 1,
+            "room_number" : "CS101 Room A"
+            },
+            {
+              "id" : 2,
+              "room_number" : "CS102 Room B"
+                }
+          ],
+          "m_learning_outcomes": [
+            {
+            "id": 1,
+            "LO": "Build Robots"
+            },
+            {
+              "id": 2,
+              "LO": "3D Printing"
+              },
+              {
+                "id": 3,
+                "LO": "Python Basics"
+                }
+          ],
           "assessments": [
             {
+              "id" : 1,
               "assessment_name": "Midterm Exam",
               "date": "2024-10-15",
               "time": "10:00 - 12:00",
-              "room": "CS101 Room A"
+              "room": "CS101 Room A",
+              "a_learning_outcomes": [
+                {
+                "id": 1,
+                "LO": "Build website in an hour"
+                },
+                {
+                  "id": 2,
+                  "LO": "Work well under pressure"
+                  }
+              ]
             },
             {
+              "id" : 2,
               "assessment_name": "Final Project",
               "date": "2024-12-05",
               "time": "14:00 - 16:00",
-              "room": "CS101 Room B"
+              "room": "CS101 Room B",
+              "a_learning_outcomes": [
+                {
+                "id": 1,
+                "LO": "Make a Robot Dance"
+                },
+                {
+                  "id": 2,
+                  "LO": "Understand Computer architecture"
+                  }
+              ]
             }
           ]
         },
         {
+          "id" : 2,
           "module_code": "CS201",
           "module_name": "Data Structures and Algorithms",
           "timeslot": "Wed 14:00 - 16:00",
-          "room": "CS201 Room B",
+          "room": [
+            {
+            "id" : 1,
+            "room_number" : "CS301 Room C"
+            },
+            {
+              "id" : 2,
+              "room_number" : "CS105 Room D"
+                }
+          ],
+          "m_learning_outcomes": [
+            {
+            "id": 1,
+            "LO": "Understand Algorithms"
+            },
+            {
+              "id": 2,
+              "LO": "Understand Data Structure"
+              }
+          ],
           "assessments": [
             {
+              "id" : 1,
               "assessment_name": "Assignment 1",
               "date": "2024-11-10",
               "time": "14:00 - 16:00",
-              "room": "CS201 Room B"
+              "room": "CS201 Room B",
+              "a_learning_outcomes": [
+                {
+                "id": 1,
+                "LO": "Write an Algorithm"
+                },
+                {
+                  "id": 2,
+                  "LO": "Implement and Algorithm"
+                  }
+              ]
             },
             {
+              "id" : 2,
               "assessment_name": "Final Exam",
               "date": "2024-12-20",
               "time": "10:00 - 12:00",
-              "room": "CS201 Room A"
+              "room": "CS201 Room A",
+              "a_learning_outcomes": [
+                {
+                "id": 1,
+                "LO": "Create a Data Model"
+                },
+                {
+                  "id": 2,
+                  "LO": "Implement a Data Model"
+                  }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "id": 2,
-      "name": "MediaStudies",
-      "modules": [
+      "degrees": [
         {
-          "module_code": "CS1010",
-          "module_name": "Introduction to Media",
-          "timeslot": "Mon 10:00 - 12:00",
-          "room": "CS101 Room A",
-          "assessments": [
+          "id": 2,
+          "name": "English",
+          "year": 2024,
+          "exit_awards": [
             {
-              "assessment_name": "Midterm Exam",
-              "date": "2024-10-15",
-              "time": "10:00 - 12:00",
-              "room": "CS101 Room A"
+              "id": 1,
+              "award_name": "Bachelor of Arts (BA) in English Literature"
             },
             {
-              "assessment_name": "Final Project",
-              "date": "2024-12-05",
-              "time": "14:00 - 16:00",
-              "room": "CS101 Room B"
+              "id": 2,
+              "award_name": "Diploma of Higher Education in English Language and Literature"
+            }
+          ],
+          "d_learning_outcomes": [
+            { 
+              "id": 1, "LO": "Develop Analytical Reading Skills" 
+            },
+            { 
+              "id": 2, "LO": "Enhance Writing Proficiency" 
+            },
+            { "id": 3, "LO": "Explore Literary Theory and Criticism" 
+          }
+          ],
+          "modules": [
+            {
+              "id": 1,
+              "module_code": "ENG101",
+              "module_name": "Introduction to English Literature",
+              "number_hours": 40,
+              "credits": 40,
+              "timeslot": "Mon 10:00 - 12:00",
+              "room": [
+                { 
+                  "id": 1, "room_number": "ENG101 Room A" 
+                },
+                { 
+                  "id": 2, "room_number": "ENG102 Room B" 
+                }
+              ],
+              "m_learning_outcomes": [
+                { 
+                  "id": 1, "LO": "Understand Literary Genres" 
+                },
+                { 
+                  "id": 2, "LO": "Analyze Symbolism and Themes" 
+                },
+                { 
+                  "id": 3, "LO": "Interpret Texts Critically" 
+                }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Midterm Essay",
+                  "date": "2024-10-15",
+                  "time": "10:00 - 12:00",
+                  "room": "ENG101 Room A",
+                  "a_learning_outcomes": [
+                    { 
+                      "id": 1, "LO": "Construct Clear Argumentative Essays" 
+                    },
+                    { 
+                      "id": 2, "LO": "Apply Literary Analysis Techniques" 
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Final Paper",
+                  "date": "2024-12-05",
+                  "time": "14:00 - 16:00",
+                  "room": "ENG102 Room B",
+                  "a_learning_outcomes": [
+                    { 
+                      "id": 1, "LO": "Demonstrate Advanced Writing Skills" 
+                    },
+                    { 
+                      "id": 2, "LO": "Evaluate Literature in Cultural Contexts" 
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "module_code": "ENG201",
+              "module_name": "Shakespearean Studies",
+              "timeslot": "Wed 14:00 - 16:00",
+              "room": [
+                { 
+                  "id": 1, "room_number": "ENG201 Room C" 
+                },
+                { 
+                  "id": 2, "room_number": "ENG205 Room D" 
+                }
+              ],
+              "m_learning_outcomes": [
+                {
+                   "id": 1, "LO": "Study Shakespearean Plays" 
+                  },
+                { 
+                  "id": 2, "LO": "Analyze Dramatic Techniques" 
+                }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Research Project on Shakespeare",
+                  "date": "2024-11-10",
+                  "time": "14:00 - 16:00",
+                  "room": "ENG201 Room C",
+                  "a_learning_outcomes": [
+                    {
+                       "id": 1, "LO": "Conduct In-Depth Literary Research" 
+                      },
+                    {
+                       "id": 2, "LO": "Present Findings Effectively" 
+                      }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Final Exam on Shakespearean Literature",
+                  "date": "2024-12-20",
+                  "time": "10:00 - 12:00",
+                  "room": "ENG205 Room D",
+                  "a_learning_outcomes": [
+                    {
+                       "id": 1, "LO": "Comprehend Historical Contexts of Plays" 
+                      },
+                    { 
+                      "id": 2, "LO": "Critically Analyze Shakespearean Texts" 
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
-
+      ]
+    },
+    {
+        "degrees": [
+        {
+          "id": 3,
+          "name": "MediaStudies",
+          "year": 2024,
+          "exit_awards": [
+            {
+              "id": 1,
+              "award_name": "Bachelor of Arts (BA) in Media Studies"
+            },
+            {
+              "id": 2,
+              "award_name": "Diploma of Higher Education in Media Production"
+            }
+          ],
+          "d_learning_outcomes": [
+            { "id": 1, "LO": "Develop Critical Thinking in Media Analysis" },
+            { "id": 2, "LO": "Enhance Visual Communication Skills" },
+            { "id": 3, "LO": "Explore Media Ethics and Culture" }
+          ],
+          "modules": [
+            {
+              "id": 1,
+              "module_code": "MS101",
+              "module_name": "Introduction to Media Studies",
+              "number_hours": 40,
+              "credits": 40,
+              "timeslot": "Mon 10:00 - 12:00",
+              "room": [
+                { "id": 1, "room_number": "MS101 Room A" },
+                { "id": 2, "room_number": "MS102 Room B" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Understand Media Theories and Concepts" },
+                { "id": 2, "LO": "Analyze Media Content and Production" },
+                { "id": 3, "LO": "Explore Digital Media Platforms" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Media Analysis Essay",
+                  "date": "2024-10-15",
+                  "time": "10:00 - 12:00",
+                  "room": "MS101 Room A",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Apply Critical Analysis to Media Texts" },
+                    { "id": 2, "LO": "Demonstrate Media Literacy Skills" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Digital Media Project",
+                  "date": "2024-12-05",
+                  "time": "14:00 - 16:00",
+                  "room": "MS102 Room B",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Create Multimedia Content" },
+                    { "id": 2, "LO": "Effectively Present Media Projects" }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "module_code": "MS201",
+              "module_name": "Media Ethics and Society",
+              "timeslot": "Wed 14:00 - 16:00",
+              "room": [
+                { "id": 1, "room_number": "MS201 Room C" },
+                { "id": 2, "room_number": "MS205 Room D" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Explore Ethical Issues in Media Practices" },
+                { "id": 2, "LO": "Examine Media Influence on Society" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Media Ethics Case Study",
+                  "date": "2024-11-10",
+                  "time": "14:00 - 16:00",
+                  "room": "MS201 Room C",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Analyze Ethical Dilemmas in Media Production" },
+                    { "id": 2, "LO": "Present Ethical Solutions in Media Contexts" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Media Research Project",
+                  "date": "2024-12-20",
+                  "time": "10:00 - 12:00",
+                  "room": "MS205 Room D",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Conduct Empirical Research in Media Studies" },
+                    { "id": 2, "LO": "Communicate Research Findings Effectively" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degrees": [
+        {
+          "id": 4,
+          "name": "Mathematics",
+          "year": 2024,
+          "exit_awards": [
+            {
+              "id": 1,
+              "award_name": "Bachelor of Science (BSc) in Mathematics"
+            },
+            {
+              "id": 2,
+              "award_name": "Diploma of Higher Education in Mathematical Sciences"
+            }
+          ],
+          "d_learning_outcomes": [
+            { "id": 1, "LO": "Develop Problem-Solving Skills in Mathematics" },
+            { "id": 2, "LO": "Enhance Mathematical Reasoning Abilities" },
+            { "id": 3, "LO": "Explore Advanced Mathematical Concepts" }
+          ],
+          "modules": [
+            {
+              "id": 1,
+              "module_code": "MATH101",
+              "module_name": "Calculus I",
+              "number_hours": 40,
+              "credits": 40,
+              "timeslot": "Mon 10:00 - 12:00",
+              "room": [
+                { "id": 1, "room_number": "MATH101 Room A" },
+                { "id": 2, "room_number": "MATH102 Room B" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Master Differential Calculus" },
+                { "id": 2, "LO": "Understand Integral Calculus" },
+                { "id": 3, "LO": "Apply Calculus in Real-World Scenarios" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Midterm Exam",
+                  "date": "2024-10-15",
+                  "time": "10:00 - 12:00",
+                  "room": "MATH101 Room A",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Solve Calculus Problems Effectively" },
+                    { "id": 2, "LO": "Demonstrate Understanding of Differentiation" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Final Project",
+                  "date": "2024-12-05",
+                  "time": "14:00 - 16:00",
+                  "room": "MATH102 Room B",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Apply Integration Techniques" },
+                    { "id": 2, "LO": "Analyze Applications of Calculus" }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "module_code": "MATH201",
+              "module_name": "Linear Algebra",
+              "timeslot": "Wed 14:00 - 16:00",
+              "room": [
+                { "id": 1, "room_number": "MATH201 Room C" },
+                { "id": 2, "room_number": "MATH205 Room D" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Understand Matrix Operations" },
+                { "id": 2, "LO": "Solve Systems of Linear Equations" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Matrix Analysis",
+                  "date": "2024-11-10",
+                  "time": "14:00 - 16:00",
+                  "room": "MATH201 Room C",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Apply Linear Algebra Concepts" },
+                    { "id": 2, "LO": "Perform Matrix Computations" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Final Exam",
+                  "date": "2024-12-20",
+                  "time": "10:00 - 12:00",
+                  "room": "MATH205 Room D",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Demonstrate Understanding of Vector Spaces" },
+                    { "id": 2, "LO": "Apply Eigenvalue and Eigenvector Concepts" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degrees": [
+        {
+          "id": 5,
+          "name": "Physics",
+          "year": 2024,
+          "exit_awards": [
+            {
+              "id": 1,
+              "award_name": "Bachelor of Science (BSc) in Physics"
+            },
+            {
+              "id": 2,
+              "award_name": "Diploma of Higher Education in Physics"
+            }
+          ],
+          "d_learning_outcomes": [
+            { "id": 1, "LO": "Develop Proficiency in Physics Concepts" },
+            { "id": 2, "LO": "Enhance Analytical and Problem-Solving Skills" },
+            { "id": 3, "LO": "Apply Mathematics to Physical Phenomena" }
+          ],
+          "modules": [
+            {
+              "id": 1,
+              "module_code": "PHY101",
+              "module_name": "Classical Mechanics",
+              "number_hours": 40,
+              "credits": 40,
+              "timeslot": "Mon 10:00 - 12:00",
+              "room": [
+                { "id": 1, "room_number": "PHY101 Room A" },
+                { "id": 2, "room_number": "PHY102 Room B" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Understand Newtonian Mechanics" },
+                { "id": 2, "LO": "Apply Kinematics and Dynamics" },
+                { "id": 3, "LO": "Analyze Systems of Particles and Rigid Bodies" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Mechanics Quiz",
+                  "date": "2024-10-15",
+                  "time": "10:00 - 12:00",
+                  "room": "PHY101 Room A",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Solve Mechanics Problems" },
+                    { "id": 2, "LO": "Apply Laws of Motion" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Final Exam",
+                  "date": "2024-12-05",
+                  "time": "14:00 - 16:00",
+                  "room": "PHY102 Room B",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Demonstrate Understanding of Energy and Momentum" },
+                    { "id": 2, "LO": "Solve Problems in Circular Motion and Gravitation" }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "module_code": "PHY201",
+              "module_name": "Electromagnetism",
+              "timeslot": "Wed 14:00 - 16:00",
+              "room": [
+                { "id": 1, "room_number": "PHY201 Room C" },
+                { "id": 2, "room_number": "PHY205 Room D" }
+              ],
+              "m_learning_outcomes": [
+                { "id": 1, "LO": "Understand Electric Fields and Forces" },
+                { "id": 2, "LO": "Analyze Magnetic Fields and Electromagnetic Induction" }
+              ],
+              "assessments": [
+                {
+                  "id": 1,
+                  "assessment_name": "Electrostatics Lab",
+                  "date": "2024-11-10",
+                  "time": "14:00 - 16:00",
+                  "room": "PHY201 Room C",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Perform Experiments in Electrostatics" },
+                    { "id": 2, "LO": "Analyze Electric Field and Potential" }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "assessment_name": "Electromagnetic Theory Exam",
+                  "date": "2024-12-20",
+                  "time": "10:00 - 12:00",
+                  "room": "PHY205 Room D",
+                  "a_learning_outcomes": [
+                    { "id": 1, "LO": "Apply Maxwell's Equations" },
+                    { "id": 2, "LO": "Understand Electromagnetic Waves" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    
   ]
 }
-  ]
-}
+    
