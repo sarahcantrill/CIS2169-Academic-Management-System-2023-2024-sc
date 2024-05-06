@@ -16,24 +16,23 @@ document.addEventListener("DOMContentLoaded", function() {
 function renderHTML(data) {
     var htmlString = "";
 
-    // Iterate over each degree in the data.degrees array
+    //get every degree
     data.degrees.forEach(function(degree) {
-        // Construct HTML content based on degree properties
+        // Cnames into html
         htmlString += "<h2>" + degree.name + "</h2>";
         htmlString += "<p>Year: " + degree.year + "</p>";
 
-        // Check if modules property exists for the current degree
+        // Cmodules rendee
         if (degree.modules) {
             htmlString += "<h3>Modules</h3>";
-            // Iterate over each module in the degree.modules array
+            //get every module
             degree.modules.forEach(function(module) {
                 htmlString += "<div class='module'>";
                 htmlString += "<h4>" + module.module_name + "</h4>";
                 htmlString += "<p>Module Code: " + module.module_code + "</p>";
                 htmlString += "<p>Credits: " + module.credits + "</p>";
                 htmlString += "<p>Timeslot: " + module.timeslot + "</p>";
-                
-                // Render room details if available
+                //get room details
                 if (module.room && module.room.length > 0) {
                     htmlString += "<p>Room(s): ";
                     module.room.forEach(function(room, index) {
@@ -42,16 +41,14 @@ function renderHTML(data) {
                     });
                     htmlString += "</p>";
                 }
-                
-                // Render module learning outcomes if available
+                // get mlos
                 if (module.m_learning_outcomes) {
                     htmlString += "<h5>Module Learning Outcomes</h5>";
                     module.m_learning_outcomes.forEach(function(outcome) {
                         htmlString += "<p>LO: " + outcome.LO + "</p>";
                     });
                 }
-                
-                // Render assessments if available
+                // get assessments
                 if (module.assessments) {
                     htmlString += "<h5>Assessments</h5>";
                     module.assessments.forEach(function(assessment) {
@@ -60,7 +57,7 @@ function renderHTML(data) {
                         htmlString += "<p>Time: " + assessment.time + "</p>";
                         htmlString += "<p>Room: " + assessment.room + "</p>";
                         
-                        // Render assessment learning outcomes if available
+                        // get alos
                         if (assessment.a_learning_outcomes) {
                             htmlString += "<p>Assessment Learning Outcomes:</p>";
                             assessment.a_learning_outcomes.forEach(function(outcome) {
@@ -69,12 +66,12 @@ function renderHTML(data) {
                         }
                     });
                 }
-                htmlString += "</div>"; // Close module div
+                htmlString += "</div>"; 
             });
         }
     });
 
-    // Set the generated HTML content to the moduleContainer
+    //load in html
     var moduleContainer = document.getElementById("module-info");
     if (moduleContainer) {
         moduleContainer.innerHTML = htmlString;
