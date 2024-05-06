@@ -5,6 +5,7 @@ var moduleContainer = document.getElementById('assessment-info');
 document.addEventListener("DOMContentLoaded", function() {
     var ourRequest = new XMLHttpRequest();
     ourRequest.open('GET', 'data.json');
+    // ourRequest.open('GET', 'http://localhost:3000/degrees/');
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText);
         console.log(ourData);
